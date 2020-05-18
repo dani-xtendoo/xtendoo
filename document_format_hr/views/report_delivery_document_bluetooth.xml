@@ -286,6 +286,10 @@
                                     </th>
 
                                     <th style="margin-left:30px;">
+                                        Lote
+                                    </th>
+
+                                    <th style="margin-left:30px;">
                                         Cantidad
                                     </th>
 
@@ -306,10 +310,18 @@
                                         </td>
 
                                         <!-- Producto -->
+                                        <!-- Lote -->
+
+                                        <td style="width:20%;padding:0px;text-align:center;">
+                                            <span t-field="move_line.lot_id"/>
+
+                                        </td>
+
+                                        <!-- Lote -->
 
                                         <!-- Cantidad -->
 
-                                        <td style="width:40%;padding:0px;text-align:center;">
+                                        <td style="width:20%;padding:0px;text-align:center;">
                                             <span t-field="move_line.qty_done"/>
                                             <!--  <span t-field="move_line.product_uom_id"/>-->
                                         </td>
