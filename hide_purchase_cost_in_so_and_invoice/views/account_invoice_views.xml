@@ -8,8 +8,12 @@
             <field name="inherit_id" ref="account_invoice_margin.invoice_margin_form"/>
             <field name="arch" type="xml">
 
+                <xpath expr="//field[@name='margin']" position="replace">
+                <field name="margin" groups="base.create_direct_invoice"/>
+                </xpath>
+
                <xpath expr="//field[@name='invoice_line_ids']//field[@name='purchase_price']" position="replace">
-                    <field name="purchase_price" groups="base.group_partner_manager"/>
+                    <field name="purchase_price" groups="base.create_direct_invoice"/>
                </xpath>
 
             </field>
