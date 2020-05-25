@@ -1,8 +1,8 @@
 {
-    'name': 'Avaible User Create Invoice',
-    'summary': """Avaible User Create Invoice and modify payment date""",
+    'name': 'LCH Administrator',
+    'summary': """Administration settings for La Casa del Hostelero, Discafé and Huelva Regalos""",
     'version': '12.0.1.0.0', 
-    'description': """Avaible User create Invoice""",
+    'description': """Administration settings for La Casa del Hostelero, Discafé and Huelva Regalos""",
     'author': 'DDL',
     'company': 'Xtendoo',
     'website': 'http://www.xtendoo.com',
@@ -14,6 +14,8 @@
     'data': [
         'views/view_users_form_create_invoice.xml',
         'views/account_payment.xml',
+        'views/sale_order_views.xml',
+        'views/account_invoice_views.xml',
     ],
     "depends": [
         'sale',

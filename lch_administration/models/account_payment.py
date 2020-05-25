@@ -12,6 +12,6 @@ class AccountPayment(models.Model):
     )
 
     def _get_lock_date(self):
-        return not self.env.user.create_direct_invoice
+        return not self.env.user.administration
 
 

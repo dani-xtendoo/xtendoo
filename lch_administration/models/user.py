@@ -7,7 +7,7 @@ from odoo import fields, models
 class Users(models.Model):
     _inherit = "res.users"
 
-    create_direct_invoice = fields.Boolean(
-        string='create_direct_invoice',
+    administration = fields.Boolean(
+        string='Administración',
         default="False"
         )
