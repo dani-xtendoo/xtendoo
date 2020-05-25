@@ -46,9 +46,9 @@
                     <field name="name" attrs="{'readonly': [('is_admin', '=', False)]}"/>
                </xpath>
 
-               <!-- <xpath expr="//field[@name='invoice_line_ids']//field[@name='prod_lot_ids']" position="replace">
+                <xpath expr="//field[@name='invoice_line_ids']//field[@name='prod_lot_ids']" position="replace">
                     <field name="prod_lot_ids"  String="Lote" widget="many2many_tags" attrs="{'readonly': [('is_admin', '=', False)]}"/>
-               </xpath> -->
+               </xpath>
 
             </field>
 

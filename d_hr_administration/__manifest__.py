@@ -1,8 +1,8 @@
 {
-    'name': 'LCH Administrator',
-    'summary': """Administration settings for La Casa del Hostelero""",
+    'name': 'D & HR Administrator',
+    'summary': """Administration settings for Discafé and Huelva Regalos""",
     'version': '12.0.1.0.0', 
-    'description': """Administration settings for La Casa del Hostelero""",
+    'description': """Administration settings foR Discafé and Huelva Regalos""",
     'author': 'DDL',
     'company': 'Xtendoo',
     'website': 'http://www.xtendoo.com',
