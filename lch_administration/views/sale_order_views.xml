@@ -32,6 +32,14 @@
                     <field name="discount" attrs="{'readonly': [('is_admin', '=', False)]}"/>
                 </xpath>
 
+                 <xpath expr="//field[@name='order_line']/tree//field[@name='discount2']" position="replace">
+                    <field name="discount2" attrs="{'readonly': [('is_admin', '=', False)]}"/>
+                </xpath>
+
+                 <xpath expr="//field[@name='order_line']/tree//field[@name='discount3']" position="replace">
+                    <field name="discount3" attrs="{'readonly': [('is_admin', '=', False)]}"/>
+                </xpath>
+
             </field>
         </record>
 
